@@ -11,10 +11,13 @@ it will open Notepad.
 Note: You will have to change the location of the applicaion based on your application location, in the python code.
 Note: This project has a number of dependencies which you will have to install,like chatterbot et5c. You have to install these
 You can use the normal pip install command to do this
-For example you have to install chatterbot type 'pip install chatterbot'. Similarly others.
+For example you have to install chatterbot type 
+> pip install chatterbot
 
 For any queries feel free to contact me on
+```
 hrshgpt73@gmail.com or +91-9920178153
+```
 
 
 
