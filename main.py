@@ -1,14 +1,14 @@
 import Tkinter
 import os
 top = Tkinter.Tk()
-
+from chatterbot import ChatBot
 import pyttsx
 engine = pyttsx.init()
 rate = engine.getProperty('rate')
 engine.setProperty('rate', rate-30)
 import wiki_bot
-
-
+chatbot = ChatBot('Chatty')
+from chatterbot.training.trainers import ListTrainer
 import speech_recognition as sr
 r = sr.Recognizer()
 m = sr.Microphone()
@@ -18,11 +18,41 @@ print("Set minimum energy threshold to {}".format(r.energy_threshold))
 import wikipedia
 
 
-
 from win32com.client import Dispatch
 
 
 
+
+
+
+
+name="Chatty"
+conver = [
+    "Hello",
+    "Hi there! I am "+name,
+    "How are you doing?",
+    "I'm doing great.",
+    "Where do you live?",
+    "I live in Mumbai",
+    "Where are you from?",
+    "I live in Navi Mumbai",
+    "Where in navi mumbai?",
+    "Cbd bealpur",
+    "Are you robot or human?",
+    "I am human ofcourse.",
+    "That is good to hear",
+    "Me too",
+    "Thank you.",
+    "You're welcome.",
+    
+    
+]
+
+
+
+chatbot.set_trainer(ListTrainer)
+chatbot.train(conver)
+i=1
 
 while(True):
     with sr.Microphone() as source:
