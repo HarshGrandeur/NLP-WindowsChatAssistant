@@ -75,8 +75,6 @@ while(True):
           print con
           engine.say(con)
           engine.runAndWait()
-          # As the below line is fetching from database. But, currently it's connected to db.
-          # cur.execute("SELECT * FROM Jobs")
           row=cur.fetchall()
           for r in row:
                print r   
@@ -84,4 +82,3 @@ while(True):
           print con
           engine.say(con)
           engine.runAndWait()
-    
