@@ -3,7 +3,7 @@
 
 This is a small project based on Python. It works by recognizing your voice and responding to it . You can search about any random stuff using 
 your voice. You must specify the thing you want ot know about by saying "What is 'keyword'". It searches the wikipedia and says and displays the 
-first 5 lines. Apart from this, it talks to you normally like 'Hello' and realted stuff.
+first 5 lines. Apart from this, it talks to you normally like you can say 'Hello' and realted stuff.
 
 You can open Windows applications by saying Open followed by the appllication name. For example, if you say open notepad, 
 it will open Notepad. 
