@@ -5,7 +5,7 @@ This is a small project based on Python. It works by recognizing your voice and 
 your voice. You must specify the thing you want ot know about by saying "What is 'keyword'". It searches the wikipedia and says and displays the 
 first 5 lines. Apart from this, it talks to you normally like you can say 'Hello' and realted stuff.
 
-You can open Windows applications by saying Open followed by the appllication name. For example, if you say open notepad, 
+You can open Windows applications by saying Open followed by the appllication name. For example, if you say open notepad, say "open 'Notepad'" and  
 it will open Notepad. 
 
 Note: You will have to change the location of the applicaion based on your application location, in the python code.
