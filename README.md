@@ -14,7 +14,7 @@ You can use the normal pip install command to do this.
 For example you have to install chatterbot type 
 > pip install chatterbot
 
-For any queries feel free to contact me on
+For any queries feel free to contact me on:-
 ```
 hrshgpt73@gmail.com or +91-9920178153
 ```
