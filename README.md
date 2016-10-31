@@ -10,11 +10,11 @@ it will open Notepad.
 
 Note: You will have to change the location of the application (Windows) based on its location on your system, in the python code.
 Note: This project has a number of dependencies which you will have to install,like chatterbot etc. You have to install these
-You can use the normal pip install command to do this
+You can use the normal pip install command to do this.
 For example,you have to install chatterbot type 
 > pip install chatterbot
 
-For any queries feel free to contact me on
+For any queries feel free to contact me on:-
 ```
 hrshgpt73@gmail.com or +91-9920178153
 ```
